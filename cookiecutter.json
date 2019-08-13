@@ -1,0 +1,7 @@
+{
+  "s3_bucket": null,
+  "kms_enabled": false,
+  "cross_region_replication": false,
+  "region_source": "us-east-1",
+  "region_destination": "us-west-1"
+}
