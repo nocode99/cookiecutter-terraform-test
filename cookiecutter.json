@@ -3,5 +3,7 @@
   "kms_enabled": false,
   "cross_region_replication": false,
   "region_source": "us-east-1",
-  "region_destination": "us-west-1"
+  "region_destination": "us-west-1",
+  "leave_the_rest_as_defaults": null,
+  "s3_bucket_tf": "{{ cookiecutter.s3_bucket.lower().strip().replace('-', '_') }}"
 }
