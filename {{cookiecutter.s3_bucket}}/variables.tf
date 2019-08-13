@@ -2,7 +2,7 @@ variable "region" {
   default = "{{cookiecutter.region_source}}"
 }
 
-{% if cookiecutter.region_destination is not None %}
+{% if cookiecutter.cross_region_replication %}
 variable "region_destination" {
   default = "{{cookiecutter.region_destination}}"
 }
